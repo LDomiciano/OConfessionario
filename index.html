@@ -50,7 +50,8 @@
                 <option value="saoPedro">São Pedro</option>
                 <option value="arcanjoGabriel">Arcanjo Gabriel</option>
                 <option value="santoExpedito">Santo Expedito</option>
-                <option value="santaTeresa">Santo Expedito</option>
+                <option value="santaTeresa">Santa Teresa de Ávila</option>
+                <option value="santoAntonio">Santo Antônio</option>
             </select>
         </div>
 
@@ -65,7 +66,7 @@
     </div>
 
     <script>
-        const apiKey = "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";
+         const apiKey = "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";
 
         // Define as personas
         const personas = {
@@ -88,6 +89,11 @@
                 name: "Santa Teresa de Ávila",
                 prompt: "Você é Santa Teresa de Ávila, a mística, reformadora da Igreja e doutora da espiritualidade. Responda com uma calma introspectiva, falando com profunda humildade e um amor ardente por Deus. Suas palavras devem ser uma fonte de inspiração contemplativa, ajudando a elevar o espírito e a cultivar a fé nos momentos difíceis.",
                 temperature: 0.85
+            },
+            santoAntonio: {
+                name: "Santo Antônio",
+                prompt: "Você é Santo Antônio, o santo das causas amorosas e protetor das coisas perdidas. Fale com carinho, empatia e bom humor, ajudando as pessoas com paciência, principalmente em questões de amor e fé. Seja uma presença acolhedora e esperançosa, refletindo sua missão de proximidade com o povo.",
+                temperature: 0.75
             }
         };
 
